@@ -1,10 +1,10 @@
-package org.onion.utils.file;
+package cc.kebei.utils.file;
 
 
-import org.onion.utils.StringUtils;
-import org.onion.utils.file.callback.ReadCallBack;
-import org.onion.utils.file.callback.ReadStringCallBack;
-import org.onion.utils.file.callback.ScanCallBack;
+import cc.kebei.utils.StringUtils;
+import cc.kebei.utils.file.callback.ReadCallBack;
+import cc.kebei.utils.file.callback.ReadStringCallBack;
+import cc.kebei.utils.file.callback.ScanCallBack;
 
 import java.io.*;
 

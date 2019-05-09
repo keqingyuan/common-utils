@@ -1,4 +1,4 @@
-package org.onion.utils.file;
+package cc.kebei.utils.file;
 
 class Encoding {
 	// Supported Encoding Types
