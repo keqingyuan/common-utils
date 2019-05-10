@@ -1,9 +1,6 @@
 package cc.kebei.utils;
 
-import java.util.HashSet;
 import java.util.Random;
-import java.util.Set;
-import java.util.UUID;
 
 /**
  * 随机数工具，用于产生随机数，随机密码等

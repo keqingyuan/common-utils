@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 /**
  * 字符操作常用方法集
- * Created by zhouhao on 16-6-6.
+ * Created by KeBei on 16-6-6.
  */
 public class StringUtils {
     /**

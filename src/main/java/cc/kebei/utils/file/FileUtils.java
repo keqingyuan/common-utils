@@ -9,7 +9,7 @@ import cc.kebei.utils.file.callback.ScanCallBack;
 import java.io.*;
 
 /**
- * Created by 浩 on 2015-12-09 0009.
+ * Created by KeBei on 2015-12-09.
  */
 public class FileUtils extends Resources {
 

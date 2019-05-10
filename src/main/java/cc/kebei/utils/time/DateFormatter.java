@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * 日期格式化工具
  *
- * @author zhouhao
+ * @author kebei
  */
 public interface DateFormatter {
 
