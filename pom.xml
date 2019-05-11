@@ -6,10 +6,10 @@
 
     <groupId>cc.kebei</groupId>
     <artifactId>common-utils</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
-    <description>onion utils</description>
+    <description>common utils</description>
     <url>https://github.com/keqingyuan/common-utils</url>
 
     <licenses>
