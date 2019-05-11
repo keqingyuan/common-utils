@@ -4,7 +4,7 @@
 
     <groupId>cc.kebei</groupId>
     <artifactId>common-utils</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>common utils</description>
