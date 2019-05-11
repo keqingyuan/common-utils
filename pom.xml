@@ -95,8 +95,7 @@
                                     <goal>jar</goal>
                                 </goals>
                                 <configuration>
-                                    <failOnError>false</failOnError>
-                                    <doclint>none</doclint>
+                                    <additionalJOption>-Xdoclint:none</additionalJOption>
                                 </configuration>
                             </execution>
                         </executions>
