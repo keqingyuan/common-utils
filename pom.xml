@@ -6,7 +6,7 @@
 
     <groupId>cc.kebei</groupId>
     <artifactId>common-utils</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>onion utils</description>
@@ -21,7 +21,7 @@
 
     <developers>
         <developer>
-            <name>Kebei</name>
+            <name>Ke Bei</name>
             <email>1209547238@qq.com</email>
             <roles>
                 <role>Owner</role>
@@ -173,7 +173,6 @@
             <artifactId>joda-time</artifactId>
             <version>2.7</version>
         </dependency>
-
         <!--中文转拼音-->
         <dependency>
             <groupId>com.belerweb</groupId>
@@ -184,21 +183,38 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>aliyun-nexus</id>
-            <name>aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <id>google</id>
+            <name>aliyungoogle</name>
+            <url>https://maven.aliyun.com/repository/google</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>spring</id>
+            <name>aliyunspring</name>
+            <url>https://maven.aliyun.com/repository/spring</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
-            <id>sonatype-releases</id>
-            <name>sonatype repository</name>
+            <id>sonatype</id>
+            <name>Sonatype Release Repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
         <snapshotRepository>
-            <id>sonatype-snapshots</id>
-            <name>Nexus Snapshot Repository</name>
+            <id>sonatype</id>
+            <name>Sonatype Snapshot Repository</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
