@@ -342,9 +342,8 @@ public final class DateTimeUtils {
 
     /**
      * 比较时间是本月的第几天
-     *
-     * @param date
-     * @return
+     * @param date 日期
+     * @return 返回第几天
      */
     public static int getDayOfMonth(Date date) {
         DateTime dateTime = new DateTime(date);
@@ -354,8 +353,8 @@ public final class DateTimeUtils {
     /**
      * 计算当月有几天
      *
-     * @param date
-     * @return
+     * @param date 日期
+     * @return 天数
      */
     public static int getDateOfMonth(Date date) {
         DateTime dateTime = new DateTime(date);

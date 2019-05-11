@@ -99,9 +99,9 @@ public class FileUtils extends Resources {
 
     /**
      * 回掉方式按行读取文件
-     *
+     * @param reader reader对象
      * @param callBack 读取回掉
-     * @throws Exception 读取异常
+     * @throws IOException 异常信息
      */
     public static final void readFile(Reader reader, ReadCallBack callBack) throws IOException {
         // 指定文件编码读取
@@ -125,7 +125,7 @@ public class FileUtils extends Resources {
      * 读取文件为字符串,将自动获取文件编码
      *
      * @return 读取结果
-     * @throws Exception 读取异常
+     * @throws IOException 读取异常
      */
     public static final String reader2String(String fileName) throws IOException {
         ReadStringCallBack callBack = new ReadStringCallBack();
@@ -143,12 +143,11 @@ public class FileUtils extends Resources {
         readFile(getResourceAsReader(fileName), callBack);
     }
 
-
     /**
      * 读取文件为字符串,将自动获取文件编码
-     *
+     * @param reader reader对象
      * @return 读取结果
-     * @throws Exception 读取异常
+     * @throws Exception
      */
     public static final String reader2String(Reader reader) throws Exception {
         ReadStringCallBack callBack = new ReadStringCallBack();

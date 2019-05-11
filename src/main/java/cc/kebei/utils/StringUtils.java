@@ -267,8 +267,8 @@ public class StringUtils {
     /**
      * 对象是否为true
      *
-     * @param obj
-     * @return
+     * @param obj 对象
+     * @return boolean
      */
     public static boolean isTrue(Object obj) {
         return "true".equals(String.valueOf(obj));
