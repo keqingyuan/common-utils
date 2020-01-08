@@ -4,7 +4,7 @@
 
     <groupId>cc.kebei</groupId>
     <artifactId>commons</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.1.1</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>common utils</description>
@@ -31,7 +31,7 @@
         <connection>scm:git:https://github.com/keqingyuan/common-utils.git</connection>
         <developerConnection>scm:git:https://github.com/keqingyuan/common-utils.git</developerConnection>
         <url>https://github.com/keqingyuan/common-utils</url>
-        <tag>common-utils-0.0.1</tag>
+        <tag>commons-1.1.1</tag>
     </scm>
     <distributionManagement>
         <repository>
